@@ -1,0 +1,422 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style copy.css" />
+    <link
+      rel="shortcut icon"
+      href="youtube-new-logo2.jpg"
+      type="image/x-icon"
+    />
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">YT </a>
+        <form class="d-flex ok2" onsubmit="searchVideos(event)">
+          <input
+            id="searchInput"
+            class="form-control ok me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container" id="videoContainer">
+      <h5 class="pt-4" id="po">VIDEO PREFERE</h5>
+      <div class="row">
+        <iframe
+          width="560"
+          height="275"
+          class="col"
+          src="https://www.youtube.com/embed/r54Uy_oP1Ak?si=W_tGaTc9QYc8l6x5"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/67Xpr-es6eA?si=DRXgmRX8hfJBbYxC"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/CIvDgo6bZuE?si=fF3QfWFPY554r1nB"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h5 class="pt-4" id="lb">LOUIS BOYARD</h5>
+      <div class="row">
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/On3cUvro_nY?si=0QYe6dXA0DHMM9ti"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/7XHzq4TOdl0?si=6du5aSjYQMhFqHnt"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/dLBlDNktsyY?si=6Hl-zQYa4VrEAJDR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h5 class="pt-4" id="lb">SHORT</h5>
+      <div class="row">
+        <iframe
+          class="col"
+          width="275"
+          height="560"
+          src="https://www.youtube.com/embed/BhlZ27NOa7o"
+          title="TOTAL SE GAVE"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="275"
+          height="560"
+          src="https://www.youtube.com/embed/aL7Xn2Ab_nw"
+          title="« Il faut rémunérer le travail et ça vous ne le faites jamais »"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="275"
+          height="560"
+          src="https://www.youtube.com/embed/7fdzZ5GNhoE"
+          title="POURQUOI IL FAUT SOUTENIR LES GRÉVISTES DES RAFFINERIES !"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h5 class="pt-4">FUZE</h5>
+      <div class="row">
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/AKON8P10deQ?si=yxvB8bwGDUW8kKvu"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h5 class="pt-4" id="lb">AUTRE</h5>
+      <div class="row">
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/7ESeQBeikKs?si=gGS4iazpTmWLtDIE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/EFLyUHBt1TI?si=G-YjZyyw04-H4ety"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/IgAVLdWH2RE?si=AGajLTAw_iglZnbt"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <script>
+      function searchVideos(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Get the value from the input field
+        const searchQuery = document.getElementById("searchInput").value;
+
+        // Perform the search action and update video content (replace with your own logic)
+        updateVideoContent(searchQuery);
+      }
+
+      function updateVideoContent(searchQuery) {
+        // Replace the content of the videoContainer with the searched videos
+        const videoContainer = document.getElementById("videoContainer");
+
+        if (searchQuery === "louis boyard") {
+          videoContainer.innerHTML = `<h5 class="pt-4">Search Results for "${searchQuery}"</h5>
+        <div class="row">
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/On3cUvro_nY?si=0QYe6dXA0DHMM9ti"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/7XHzq4TOdl0?si=6du5aSjYQMhFqHnt"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/dLBlDNktsyY?si=6Hl-zQYa4VrEAJDR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>                           
+                                    
+                                    `;
+        } else if (searchQuery === "fuze") {
+          videoContainer.innerHTML = `<h5 class="pt-4">Search Results for "${searchQuery}"</h5>
+        <div class="row">
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/On3cUvro_nY?si=0QYe6dXA0DHMM9ti"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/7XHzq4TOdl0?si=6du5aSjYQMhFqHnt"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/dLBlDNktsyY?si=6Hl-zQYa4VrEAJDR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>                           
+                                    
+                                    `;
+        } else if (searchQuery === "tous") {
+          videoContainer.innerHTML = `
+          <div class="container" id="videoContainer">
+      <h5 class="pt-4" id="po">VIDEO PREFERE</h5>
+      <div class="row">
+        <iframe
+          width="560"
+          height="275"
+          class="col"
+          src="https://www.youtube.com/embed/r54Uy_oP1Ak?si=W_tGaTc9QYc8l6x5"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/67Xpr-es6eA?si=DRXgmRX8hfJBbYxC"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/CIvDgo6bZuE?si=fF3QfWFPY554r1nB"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h5 class="pt-4" id="lb">LOUIS BOYARD</h5>
+      <div class="row">
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/On3cUvro_nY?si=0QYe6dXA0DHMM9ti"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/7XHzq4TOdl0?si=6du5aSjYQMhFqHnt"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/dLBlDNktsyY?si=6Hl-zQYa4VrEAJDR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h5 class="pt-4" id="lb">SHORT</h5>
+      <div class="row">
+        <iframe
+          class="col"
+          width="275"
+          height="560"
+          src="https://www.youtube.com/embed/BhlZ27NOa7o"
+          title="TOTAL SE GAVE"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="275"
+          height="560"
+          src="https://www.youtube.com/embed/aL7Xn2Ab_nw"
+          title="« Il faut rémunérer le travail et ça vous ne le faites jamais »"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="275"
+          height="560"
+          src="https://www.youtube.com/embed/7fdzZ5GNhoE"
+          title="POURQUOI IL FAUT SOUTENIR LES GRÉVISTES DES RAFFINERIES !"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+                                    
+                                    `;
+        } else {
+          videoContainer.innerHTML = `<h5 class="pt-4">Search Results for autre</h5>
+        <div class="row">
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/On3cUvro_nY?si=0QYe6dXA0DHMM9ti"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/7XHzq4TOdl0?si=6du5aSjYQMhFqHnt"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="col"
+          width="560"
+          height="275"
+          src="https://www.youtube.com/embed/dLBlDNktsyY?si=6Hl-zQYa4VrEAJDR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>                           
+                                    
+                                    `;
+        }
+      }
+    </script>
+  </body>
+</html>

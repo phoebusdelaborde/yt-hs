@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Calculatrice</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="result" readonly />
+      <div class="buttons">
+        <button onclick="clearResult()">C</button>
+        <button onclick="deleteLastChar()">&#9003;</button>
+        <button onclick="appendValue('.')">.</button>
+        <button onclick="appendValue('/')">/</button>
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="appendValue('*')">*</button>
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="appendValue('-')">-</button>
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="appendValue('+')">+</button>
+        <button onclick="calculateResult()" id="submit-button">=</button>
+        <button onclick="appendValue('0')">0</button>
+        <button>&lpar;</button>
+        <button>&rpar;</button>
+      </div>
+    </div>
+    <style>
+      .calculator {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+    <script src="script.js"></script>
+  </body>
+</html>
